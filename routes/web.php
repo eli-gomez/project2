@@ -31,5 +31,5 @@ Route::get('/empleado/agregarfotos', function () {
 
 
 Route::get('/gerente', function () {
-    return view('welcome');
+    return view('index');
 });
