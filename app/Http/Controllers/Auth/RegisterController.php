@@ -63,10 +63,12 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+      //rol 1= gerente 2= empleado 3=cliente
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'rol' => 3,
         ]);
     }
 }
