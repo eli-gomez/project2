@@ -65,7 +65,7 @@
       <div id="postit">
         <div id="message">
           Fecha realizada: {{$abono->fecha}} <br> <br>
-          Cantida Recibida: {{$abono->monto}} <br> <br>
+          Cantidad Recibida: {{$abono->monto}} <br> <br>
           <div>
           </div>
         </div>

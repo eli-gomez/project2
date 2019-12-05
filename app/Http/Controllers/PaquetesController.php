@@ -44,6 +44,7 @@ class PaquetesController extends Controller
 
       $paquete = new Paquetes;
       $paquete->description = $request->descripcion;
+      $paquete->nombre = $request->nombre;
       if ($request->hasFile('foto1')){
         $paquete->foto1 =  $request->foto1->store('imagenes');
       }
@@ -97,6 +98,7 @@ class PaquetesController extends Controller
     {
       $paquete = Paquetes::findOrFail($id);
       $paquete->description = $request->descripcion;
+      $paquete->nombre = $request->nombre;
       if ($request->hasFile('foto1')){
         unlink($paquete->foto1);
         $paquete->foto1 =  $request->foto1->store('imagenes');

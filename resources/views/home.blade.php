@@ -48,7 +48,7 @@
 
         <div class="col-md-4">
           <a href="{{route('User.index')}}">
-            <card data-image="/images/boda1.jpg">
+            <card data-image="/images/usuario.png">
               <h1 slot="header">Ver usuarios</h1>
               <p slot="content">Ver usuarios registrados</p>
             </card>
@@ -57,7 +57,7 @@
 
         <div class="col-md-4">
           <a href="{{route('Eventos.Aindex')}}">
-            <card data-image="/images/boda1.jpg">
+            <card data-image="/images/eventos.jpg">
               <h1 slot="header">Ver Eventos</h1>
               <p slot="content">Ver eventos disponibles</p>
             </card>
@@ -66,7 +66,7 @@
 
         <div class="col-md-4">
           <a href="{{route('Paquetes.index')}}">
-            <card data-image="/images/boda1.jpg">
+            <card data-image="/images/escenarios.jpg">
               <h1 slot="header">Ver paquetes</h1>
               <p slot="content">Editar disponibles</p>
             </card>

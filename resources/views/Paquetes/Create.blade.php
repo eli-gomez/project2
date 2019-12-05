@@ -25,7 +25,7 @@
     <div class="form">
       <div class="form-panel one">
         <div class="form-header">
-          <h1>EDITAR</h1>
+          <h1>Crear Paquetes</h1>
         </div>
         <div class="form-content">
           <form method="POST" action="{{ route('Paquetes.store') }}" enctype="multipart/form-data" >
